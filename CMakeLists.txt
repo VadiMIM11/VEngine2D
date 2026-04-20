@@ -121,11 +121,13 @@ else()
                 "${CMAKE_SOURCE_DIR}/third_party/dlls"
                 "$<TARGET_FILE_DIR:VEngine2D>"
         )
-	# Copy resources folder
-		add_custom_command(TARGET VEngine2D POST_BUILD
-			COMMAND ${CMAKE_COMMAND} -E copy_directory
-				"${CMAKE_SOURCE_DIR}/resources"
-				"$<TARGET_FILE_DIR:VEngine2D>/resources"
-		)
+		# Copy resources folder
+		if (EXISTS "${CMAKE_SOURCE_DIR}/resources")
+			add_custom_command(TARGET VEngine2D POST_BUILD
+				COMMAND ${CMAKE_COMMAND} -E copy_directory
+					"${CMAKE_SOURCE_DIR}/resources"
+					"$<TARGET_FILE_DIR:VEngine2D>/resources"
+			)
+		endif()
     endif()
 endif()
