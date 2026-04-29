@@ -1,0 +1,20 @@
+{
+	"actors": [
+		{
+			"name": "GameOverManager",
+			"components": {
+				"1": {
+					"type": "GameOverManager"
+				}
+			}
+		},
+		{
+			"name": "hud",
+			"components": {
+				"1": {
+					"type": "Hud"
+				}
+			}
+		}
+	]
+}

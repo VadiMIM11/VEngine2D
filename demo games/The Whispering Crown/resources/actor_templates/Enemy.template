@@ -1,0 +1,29 @@
+{
+    "name": "Enemy",
+    "components": {
+        "0": {
+            "type": "KillOnTouch"
+        },
+        "1": {
+            "type": "NPC"
+        },
+        "2": {
+            "type": "Transform"
+        },
+        "4": {
+            "type": "SpriteRenderer",
+            "sprite": "boss",
+            "pivot_y": 1,
+            "auto_sorting_order": true
+        },
+        "6": {
+            "type": "TurnBased"
+        },
+        "7": {
+            "type": "BasicAIMovement"
+        },
+        "8": {
+            "type": "ConeVision"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "VisionTile",
+    "components": {
+        "1": {
+            "type": "Transform"
+        },
+        "3": {
+            "type": "SpriteRenderer",
+            "sprite": "vision_tile"
+        }
+    }
+}

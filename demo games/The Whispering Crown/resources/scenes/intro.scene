@@ -1,0 +1,36 @@
+{
+	"actors": [
+		{
+			"name": "IntroManager",
+			"components": {
+				"1": {
+					"type": "IntroManager"
+				}
+			}
+		},
+		{
+			"name": "SceneTransitionManager",
+			"components": {
+				"1": {
+					"type": "SceneTransitionManager"
+				}
+			}
+		},
+		{
+			"name": "CursorManager",
+			"components": {
+				"1": {
+					"type": "CursorManager"
+				}
+			}
+		},
+		{
+			"name": "hud",
+			"components": {
+				"1": {
+					"type": "Hud"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "PlayerKo",
+    "components": {
+        "1": {
+            "type": "PlayerKo"
+        },
+        "2": {
+            "type": "Transform"
+        },
+        "4": {
+            "type": "SpriteRenderer",
+            "sprite": "player",
+            "pivot_y": 1,
+            "auto_sorting_order": false
+        }
+    }
+}

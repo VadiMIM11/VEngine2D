@@ -1,0 +1,20 @@
+{
+	"actors": [
+		{
+			"name": "PostStageManager",
+			"components": {
+				"1": {
+					"type": "PostStageManager"
+				}
+			}
+		},
+		{
+			"name": "hud",
+			"components": {
+				"1": {
+					"type": "Hud"
+				}
+			}
+		}
+	]
+}

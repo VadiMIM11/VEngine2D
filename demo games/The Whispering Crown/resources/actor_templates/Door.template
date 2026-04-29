@@ -1,0 +1,17 @@
+{
+    "name": "Door",
+    "components": {
+        "0": {
+            "type": "AdvanceStageOnTouch"
+        },
+        "1": {
+            "type": "Transform"
+        },
+        "3": {
+            "type": "SpriteRenderer",
+            "sprite": "door",
+            "pivot_y": 1,
+            "auto_sorting_order": true
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Block",
+    "components": {
+        "0": {
+            "type": "Block"
+        },
+        "1": {
+            "type": "Transform"
+        },
+        "2": {
+            "type": "SpriteRenderer",
+            "sprite": "block",
+            "sorting_order": -1
+        }
+    }
+}

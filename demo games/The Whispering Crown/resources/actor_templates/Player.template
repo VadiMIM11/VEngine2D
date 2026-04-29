@@ -1,0 +1,23 @@
+{
+    "name": "Player",
+    "components": {
+        "1": {
+            "type": "Player"
+        },
+        "2": {
+            "type": "Transform"
+        },
+        "3": {
+            "type": "KeyboardControl"
+        },
+        "4": {
+            "type": "ClearFog"
+        },
+        "5": {
+            "type": "SpriteRenderer",
+            "sprite": "player",
+            "pivot_y": 1,
+            "auto_sorting_order": true
+        }
+    }
+}

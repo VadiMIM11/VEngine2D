@@ -1,0 +1,20 @@
+{
+	"actors": [
+		{
+			"name": "PreStageManager",
+			"components": {
+				"1": {
+					"type": "PreStageManager"
+				}
+			}
+		},
+		{
+			"name": "hud",
+			"components": {
+				"1": {
+					"type": "Hud"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Cuff",
+    "components": {
+        "1": {
+            "type": "Cuff"
+        },
+        "2": {
+            "type": "Transform"
+        },
+        "3": {
+            "type": "TurnBased",
+            "priority": -1
+        },
+        "4": {
+            "type": "SpriteRenderer",
+            "sprite": "cuff",
+            "pivot_y": 1,
+            "auto_sorting_order": true
+        }
+    }
+}

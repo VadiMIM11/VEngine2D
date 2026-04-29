@@ -1,0 +1,17 @@
+{
+    "name": "PlayerKo",
+    "components": {
+        "1": {
+            "type": "CuffKo"
+        },
+        "2": {
+            "type": "Transform"
+        },
+        "4": {
+            "type": "SpriteRenderer",
+            "sprite": "cuff_surprise",
+            "pivot_y": 1,
+            "auto_sorting_order": false
+        }
+    }
+}

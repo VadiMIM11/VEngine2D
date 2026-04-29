@@ -1,0 +1,16 @@
+{
+    "name": "Binoculars",
+    "components": {
+        "0": {
+            "type": "RevealMapWhileTouching"
+        },
+        "1": {
+            "type": "Transform"
+        },
+        "3": {
+            "type": "SpriteRenderer",
+            "sprite": "telescope",
+            "auto_sorting_order": true
+        }
+    }
+}

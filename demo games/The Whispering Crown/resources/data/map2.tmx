@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="100" tileheight="100" infinite="0" nextlayerid="3" nextobjectid="479">
+ <editorsettings>
+  <export target="map2.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" source="objects.tsx"/>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="2" gid="6" x="0" y="2000" width="100" height="100"/>
+  <object id="3" gid="6" x="100" y="2000" width="100" height="100"/>
+  <object id="4" gid="6" x="200" y="2000" width="100" height="100"/>
+  <object id="5" gid="6" x="300" y="2000" width="100" height="100"/>
+  <object id="6" gid="6" x="400" y="2000" width="100" height="100"/>
+  <object id="7" gid="6" x="500" y="2000" width="100" height="100"/>
+  <object id="8" gid="6" x="600" y="2000" width="100" height="100"/>
+  <object id="9" gid="6" x="700" y="2000" width="100" height="100"/>
+  <object id="10" gid="6" x="800" y="2000" width="100" height="100"/>
+  <object id="11" gid="6" x="900" y="2000" width="100" height="100"/>
+  <object id="12" gid="6" x="1100" y="2000" width="100" height="100"/>
+  <object id="13" gid="6" x="1000" y="2000" width="100" height="100"/>
+  <object id="14" gid="6" x="1200" y="2000" width="100" height="100"/>
+  <object id="15" gid="6" x="1300" y="2000" width="100" height="100"/>
+  <object id="16" gid="6" x="1400" y="2000" width="100" height="100"/>
+  <object id="17" gid="6" x="1500" y="2000" width="100" height="100"/>
+  <object id="18" gid="6" x="1600" y="2000" width="100" height="100"/>
+  <object id="19" gid="6" x="1700" y="2000" width="100" height="100"/>
+  <object id="20" gid="6" x="1800" y="2000" width="100" height="100"/>
+  <object id="21" gid="6" x="1900" y="2000" width="100" height="100"/>
+  <object id="22" gid="6" x="1900" y="1900" width="100" height="100"/>
+  <object id="23" gid="6" x="1900" y="1800" width="100" height="100"/>
+  <object id="24" gid="6" x="1900" y="1700" width="100" height="100"/>
+  <object id="25" gid="6" x="1900" y="1600" width="100" height="100"/>
+  <object id="26" gid="6" x="1900" y="1500" width="100" height="100"/>
+  <object id="27" gid="6" x="1900" y="1400" width="100" height="100"/>
+  <object id="28" gid="6" x="1900" y="1300" width="100" height="100"/>
+  <object id="29" gid="6" x="1900" y="1200" width="100" height="100"/>
+  <object id="30" gid="6" x="1900" y="1100" width="100" height="100"/>
+  <object id="31" gid="6" x="1900" y="1000" width="100" height="100"/>
+  <object id="32" gid="6" x="1900" y="900" width="100" height="100"/>
+  <object id="33" gid="6" x="1900" y="800" width="100" height="100"/>
+  <object id="34" gid="6" x="1900" y="700" width="100" height="100"/>
+  <object id="35" gid="6" x="1900" y="600" width="100" height="100"/>
+  <object id="36" gid="6" x="1900" y="500" width="100" height="100"/>
+  <object id="37" gid="6" x="1900" y="400" width="100" height="100"/>
+  <object id="38" gid="6" x="1900" y="300" width="100" height="100"/>
+  <object id="39" gid="6" x="1900" y="200" width="100" height="100"/>
+  <object id="40" gid="6" x="1900" y="100" width="100" height="100"/>
+  <object id="41" gid="6" x="1400" y="100" width="100" height="100"/>
+  <object id="42" gid="6" x="1800" y="100" width="100" height="100"/>
+  <object id="43" gid="6" x="1700" y="100" width="100" height="100"/>
+  <object id="44" gid="6" x="1600" y="100" width="100" height="100"/>
+  <object id="45" gid="6" x="1500" y="100" width="100" height="100"/>
+  <object id="46" gid="6" x="1300" y="100" width="100" height="100"/>
+  <object id="47" gid="6" x="1100" y="100" width="100" height="100"/>
+  <object id="48" gid="6" x="1200" y="100" width="100" height="100"/>
+  <object id="49" gid="6" x="1000" y="100" width="100" height="100"/>
+  <object id="50" gid="6" x="900" y="100" width="100" height="100"/>
+  <object id="51" gid="6" x="700" y="100" width="100" height="100"/>
+  <object id="52" gid="6" x="800" y="100" width="100" height="100"/>
+  <object id="53" gid="6" x="600" y="100" width="100" height="100"/>
+  <object id="54" gid="6" x="500" y="100" width="100" height="100"/>
+  <object id="55" gid="6" x="400" y="100" width="100" height="100"/>
+  <object id="56" gid="6" x="300" y="100" width="100" height="100"/>
+  <object id="57" gid="6" x="200" y="100" width="100" height="100"/>
+  <object id="58" gid="6" x="100" y="100" width="100" height="100"/>
+  <object id="59" gid="6" x="0" y="100" width="100" height="100"/>
+  <object id="60" gid="6" x="0" y="200" width="100" height="100"/>
+  <object id="61" gid="6" x="0" y="300" width="100" height="100"/>
+  <object id="62" gid="6" x="0" y="400" width="100" height="100"/>
+  <object id="63" gid="6" x="0" y="500" width="100" height="100"/>
+  <object id="64" gid="6" x="0" y="600" width="100" height="100"/>
+  <object id="65" gid="6" x="0" y="700" width="100" height="100"/>
+  <object id="66" gid="6" x="0" y="800" width="100" height="100"/>
+  <object id="67" gid="6" x="0" y="900" width="100" height="100"/>
+  <object id="68" gid="6" x="0" y="1000" width="100" height="100"/>
+  <object id="69" gid="6" x="0" y="1100" width="100" height="100"/>
+  <object id="70" gid="6" x="0" y="1200" width="100" height="100"/>
+  <object id="71" gid="6" x="0" y="1300" width="100" height="100"/>
+  <object id="72" gid="6" x="0" y="1400" width="100" height="100"/>
+  <object id="73" gid="6" x="0" y="1500" width="100" height="100"/>
+  <object id="74" gid="6" x="0" y="1600" width="100" height="100"/>
+  <object id="75" gid="6" x="0" y="1700" width="100" height="100"/>
+  <object id="76" gid="6" x="0" y="1800" width="100" height="100"/>
+  <object id="77" gid="6" x="0" y="1900" width="100" height="100"/>
+  <object id="78" gid="6" x="800" y="200" width="100" height="100"/>
+  <object id="79" gid="6" x="1100" y="200" width="100" height="100"/>
+  <object id="80" gid="6" x="1100" y="300" width="100" height="100"/>
+  <object id="82" gid="6" x="800" y="400" width="100" height="100"/>
+  <object id="83" gid="6" x="800" y="500" width="100" height="100"/>
+  <object id="84" gid="6" x="1100" y="400" width="100" height="100"/>
+  <object id="85" gid="6" x="1100" y="500" width="100" height="100"/>
+  <object id="86" gid="6" x="1100" y="600" width="100" height="100"/>
+  <object id="93" gid="6" x="800" y="1000" width="100" height="100"/>
+  <object id="94" gid="6" x="1100" y="1000" width="100" height="100"/>
+  <object id="95" gid="6" x="1100" y="900" width="100" height="100"/>
+  <object id="96" gid="6" x="800" y="1100" width="100" height="100"/>
+  <object id="97" gid="6" x="100" y="1200" width="100" height="100"/>
+  <object id="98" gid="6" x="200" y="1200" width="100" height="100"/>
+  <object id="99" gid="6" x="300" y="1200" width="100" height="100"/>
+  <object id="100" gid="6" x="400" y="1300" width="100" height="100"/>
+  <object id="101" gid="6" x="500" y="1400" width="100" height="100"/>
+  <object id="102" gid="6" x="600" y="1500" width="100" height="100"/>
+  <object id="103" gid="6" x="100" y="1900" width="100" height="100"/>
+  <object id="104" gid="6" x="200" y="1900" width="100" height="100"/>
+  <object id="112" gid="6" x="600" y="1900" width="100" height="100"/>
+  <object id="113" gid="6" x="600" y="1800" width="100" height="100"/>
+  <object id="114" gid="6" x="700" y="1500" width="100" height="100"/>
+  <object id="115" gid="6" x="800" y="1500" width="100" height="100"/>
+  <object id="116" gid="6" x="900" y="1800" width="100" height="100"/>
+  <object id="117" gid="6" x="1000" y="1800" width="100" height="100"/>
+  <object id="118" gid="6" x="1000" y="1900" width="100" height="100"/>
+  <object id="119" gid="6" x="900" y="1900" width="100" height="100"/>
+  <object id="120" gid="6" x="800" y="1400" width="100" height="100"/>
+  <object id="121" gid="6" x="800" y="1300" width="100" height="100"/>
+  <object id="122" gid="6" x="900" y="1200" width="100" height="100"/>
+  <object id="123" gid="6" x="1000" y="1200" width="100" height="100"/>
+  <object id="124" gid="6" x="800" y="1200" width="100" height="100"/>
+  <object id="125" gid="6" x="700" y="1400" width="100" height="100"/>
+  <object id="126" gid="6" x="600" y="1400" width="100" height="100"/>
+  <object id="127" gid="6" x="600" y="1300" width="100" height="100"/>
+  <object id="128" gid="6" x="700" y="1300" width="100" height="100"/>
+  <object id="129" gid="6" x="500" y="1300" width="100" height="100"/>
+  <object id="130" gid="6" x="400" y="1200" width="100" height="100"/>
+  <object id="131" gid="6" x="500" y="1200" width="100" height="100"/>
+  <object id="132" gid="6" x="600" y="1200" width="100" height="100"/>
+  <object id="133" gid="6" x="700" y="1200" width="100" height="100"/>
+  <object id="134" gid="6" x="700" y="1100" width="100" height="100"/>
+  <object id="135" gid="6" x="600" y="1100" width="100" height="100"/>
+  <object id="136" gid="6" x="400" y="1100" width="100" height="100"/>
+  <object id="137" gid="6" x="500" y="1100" width="100" height="100"/>
+  <object id="138" gid="6" x="300" y="1100" width="100" height="100"/>
+  <object id="139" gid="6" x="200" y="1100" width="100" height="100"/>
+  <object id="140" gid="6" x="100" y="1100" width="100" height="100"/>
+  <object id="141" gid="6" x="100" y="1000" width="100" height="100"/>
+  <object id="142" gid="6" x="200" y="1000" width="100" height="100"/>
+  <object id="146" gid="6" x="600" y="1000" width="100" height="100"/>
+  <object id="147" gid="6" x="700" y="1000" width="100" height="100"/>
+  <object id="148" gid="6" x="700" y="900" width="100" height="100"/>
+  <object id="154" gid="6" x="100" y="900" width="100" height="100"/>
+  <object id="155" gid="6" x="100" y="800" width="100" height="100"/>
+  <object id="157" gid="6" x="300" y="800" width="100" height="100"/>
+  <object id="158" gid="6" x="400" y="800" width="100" height="100"/>
+  <object id="159" gid="6" x="500" y="800" width="100" height="100"/>
+  <object id="161" gid="6" x="700" y="800" width="100" height="100"/>
+  <object id="162" gid="6" x="700" y="700" width="100" height="100"/>
+  <object id="164" gid="6" x="500" y="700" width="100" height="100"/>
+  <object id="165" gid="6" x="400" y="700" width="100" height="100"/>
+  <object id="166" gid="6" x="300" y="700" width="100" height="100"/>
+  <object id="168" gid="6" x="100" y="700" width="100" height="100"/>
+  <object id="171" gid="6" x="300" y="200" width="100" height="100"/>
+  <object id="172" gid="6" x="400" y="200" width="100" height="100"/>
+  <object id="173" gid="6" x="500" y="200" width="100" height="100"/>
+  <object id="174" gid="6" x="600" y="200" width="100" height="100"/>
+  <object id="175" gid="6" x="900" y="1300" width="100" height="100"/>
+  <object id="176" gid="6" x="1000" y="1300" width="100" height="100"/>
+  <object id="177" gid="6" x="1100" y="1200" width="100" height="100"/>
+  <object id="178" gid="6" x="1100" y="1300" width="100" height="100"/>
+  <object id="179" gid="6" x="1100" y="1400" width="100" height="100"/>
+  <object id="182" gid="6" x="1200" y="1400" width="100" height="100"/>
+  <object id="183" gid="6" x="1300" y="1900" width="100" height="100"/>
+  <object id="184" gid="6" x="1300" y="1800" width="100" height="100"/>
+  <object id="185" gid="6" x="1400" y="1800" width="100" height="100"/>
+  <object id="186" gid="6" x="1400" y="1900" width="100" height="100"/>
+  <object id="187" gid="6" x="1200" y="1300" width="100" height="100"/>
+  <object id="188" gid="6" x="1300" y="1300" width="100" height="100"/>
+  <object id="189" gid="6" x="1400" y="1300" width="100" height="100"/>
+  <object id="190" gid="6" x="1500" y="1300" width="100" height="100"/>
+  <object id="191" gid="6" x="1200" y="1200" width="100" height="100"/>
+  <object id="192" gid="6" x="1300" y="1200" width="100" height="100"/>
+  <object id="193" gid="6" x="1400" y="1200" width="100" height="100"/>
+  <object id="194" gid="6" x="1500" y="1200" width="100" height="100"/>
+  <object id="195" gid="6" x="1500" y="1400" width="100" height="100"/>
+  <object id="196" gid="6" x="1500" y="1500" width="100" height="100"/>
+  <object id="197" gid="6" x="1500" y="1800" width="100" height="100"/>
+  <object id="198" gid="6" x="1500" y="1900" width="100" height="100"/>
+  <object id="199" gid="6" x="1600" y="1900" width="100" height="100"/>
+  <object id="200" gid="6" x="1700" y="1900" width="100" height="100"/>
+  <object id="201" gid="6" x="1800" y="1900" width="100" height="100"/>
+  <object id="202" gid="6" x="1400" y="1100" width="100" height="100"/>
+  <object id="203" gid="6" x="1400" y="1000" width="100" height="100"/>
+  <object id="204" gid="6" x="1400" y="900" width="100" height="100"/>
+  <object id="205" gid="6" x="1400" y="800" width="100" height="100"/>
+  <object id="206" gid="6" x="1400" y="700" width="100" height="100"/>
+  <object id="207" gid="6" x="1400" y="600" width="100" height="100"/>
+  <object id="208" gid="6" x="1400" y="500" width="100" height="100"/>
+  <object id="209" gid="6" x="1400" y="400" width="100" height="100"/>
+  <object id="210" gid="6" x="1400" y="300" width="100" height="100"/>
+  <object id="211" gid="6" x="700" y="200" width="100" height="100"/>
+  <object id="212" gid="6" x="300" y="600" width="100" height="100"/>
+  <object id="213" gid="6" x="400" y="600" width="100" height="100"/>
+  <object id="214" gid="6" x="500" y="600" width="100" height="100"/>
+  <object id="215" gid="6" x="500" y="500" width="100" height="100"/>
+  <object id="216" gid="6" x="400" y="500" width="100" height="100"/>
+  <object id="217" gid="6" x="300" y="500" width="100" height="100"/>
+  <object id="218" gid="6" x="300" y="400" width="100" height="100"/>
+  <object id="219" gid="6" x="400" y="400" width="100" height="100"/>
+  <object id="220" gid="6" x="500" y="400" width="100" height="100"/>
+  <object id="224" gid="6" x="700" y="400" width="100" height="100"/>
+  <object id="225" gid="6" x="700" y="500" width="100" height="100"/>
+  <object id="226" gid="6" x="700" y="600" width="100" height="100"/>
+  <object id="230" gid="16" x="100" y="1300" width="100" height="100"/>
+  <object id="231" gid="16" x="200" y="1300" width="100" height="100"/>
+  <object id="232" gid="16" x="300" y="1300" width="100" height="100"/>
+  <object id="233" gid="16" x="300" y="1400" width="100" height="100"/>
+  <object id="234" gid="16" x="200" y="1400" width="100" height="100"/>
+  <object id="235" gid="16" x="100" y="1400" width="100" height="100"/>
+  <object id="236" gid="16" x="100" y="1500" width="100" height="100"/>
+  <object id="237" gid="16" x="200" y="1500" width="100" height="100"/>
+  <object id="238" gid="16" x="200" y="1600" width="100" height="100"/>
+  <object id="239" gid="16" x="100" y="1600" width="100" height="100"/>
+  <object id="240" gid="16" x="100" y="1700" width="100" height="100"/>
+  <object id="241" gid="16" x="200" y="1700" width="100" height="100"/>
+  <object id="242" gid="16" x="100" y="1800" width="100" height="100"/>
+  <object id="243" gid="16" x="200" y="1800" width="100" height="100"/>
+  <object id="245" gid="16" x="400" y="1800" width="100" height="100"/>
+  <object id="246" gid="16" x="400" y="1700" width="100" height="100"/>
+  <object id="247" gid="16" x="300" y="1700" width="100" height="100"/>
+  <object id="248" gid="16" x="300" y="1600" width="100" height="100"/>
+  <object id="249" gid="16" x="300" y="1500" width="100" height="100"/>
+  <object id="250" gid="16" x="400" y="1400" width="100" height="100"/>
+  <object id="251" gid="16" x="400" y="1500" width="100" height="100"/>
+  <object id="252" gid="16" x="500" y="1500" width="100" height="100"/>
+  <object id="253" gid="16" x="500" y="1600" width="100" height="100"/>
+  <object id="254" gid="16" x="400" y="1600" width="100" height="100"/>
+  <object id="255" gid="16" x="500" y="1700" width="100" height="100"/>
+  <object id="256" gid="16" x="600" y="1700" width="100" height="100"/>
+  <object id="257" gid="16" x="600" y="1600" width="100" height="100"/>
+  <object id="258" gid="16" x="700" y="1600" width="100" height="100"/>
+  <object id="259" gid="16" x="700" y="1700" width="100" height="100"/>
+  <object id="260" gid="16" x="700" y="1800" width="100" height="100"/>
+  <object id="261" gid="16" x="700" y="1900" width="100" height="100"/>
+  <object id="262" gid="16" x="800" y="1900" width="100" height="100"/>
+  <object id="263" gid="16" x="800" y="1800" width="100" height="100"/>
+  <object id="264" gid="16" x="800" y="1700" width="100" height="100"/>
+  <object id="265" gid="16" x="800" y="1600" width="100" height="100"/>
+  <object id="266" gid="16" x="900" y="1400" width="100" height="100"/>
+  <object id="267" gid="16" x="1000" y="1400" width="100" height="100"/>
+  <object id="268" gid="16" x="1000" y="1500" width="100" height="100"/>
+  <object id="269" gid="16" x="900" y="1500" width="100" height="100"/>
+  <object id="270" gid="16" x="900" y="1600" width="100" height="100"/>
+  <object id="271" gid="16" x="1000" y="1600" width="100" height="100"/>
+  <object id="272" gid="16" x="1000" y="1700" width="100" height="100"/>
+  <object id="273" gid="16" x="900" y="1700" width="100" height="100"/>
+  <object id="274" gid="16" x="1100" y="1900" width="100" height="100"/>
+  <object id="275" gid="16" x="1100" y="1800" width="100" height="100"/>
+  <object id="276" gid="16" x="1100" y="1700" width="100" height="100"/>
+  <object id="277" gid="16" x="1100" y="1600" width="100" height="100"/>
+  <object id="278" gid="16" x="1200" y="1600" width="100" height="100"/>
+  <object id="279" gid="16" x="1200" y="1700" width="100" height="100"/>
+  <object id="280" gid="16" x="1200" y="1800" width="100" height="100"/>
+  <object id="281" gid="16" x="1200" y="1900" width="100" height="100"/>
+  <object id="282" gid="16" x="1300" y="1400" width="100" height="100"/>
+  <object id="283" gid="16" x="1400" y="1400" width="100" height="100"/>
+  <object id="284" gid="16" x="1400" y="1500" width="100" height="100"/>
+  <object id="285" gid="16" x="1300" y="1500" width="100" height="100"/>
+  <object id="286" gid="16" x="1300" y="1600" width="100" height="100"/>
+  <object id="287" gid="16" x="1300" y="1700" width="100" height="100"/>
+  <object id="288" gid="16" x="1400" y="1700" width="100" height="100"/>
+  <object id="289" gid="16" x="1400" y="1600" width="100" height="100"/>
+  <object id="290" gid="16" x="1600" y="1600" width="100" height="100"/>
+  <object id="291" gid="16" x="1500" y="1600" width="100" height="100"/>
+  <object id="292" gid="16" x="1500" y="1700" width="100" height="100"/>
+  <object id="293" gid="16" x="1600" y="1700" width="100" height="100"/>
+  <object id="294" gid="16" x="1600" y="1800" width="100" height="100"/>
+  <object id="295" gid="16" x="1700" y="1800" width="100" height="100"/>
+  <object id="296" gid="16" x="1800" y="1800" width="100" height="100"/>
+  <object id="297" gid="16" x="1800" y="1700" width="100" height="100"/>
+  <object id="298" gid="16" x="1700" y="1700" width="100" height="100"/>
+  <object id="299" gid="16" x="1700" y="1600" width="100" height="100"/>
+  <object id="300" gid="16" x="1800" y="1600" width="100" height="100"/>
+  <object id="301" gid="16" x="1800" y="1500" width="100" height="100"/>
+  <object id="302" gid="16" x="1700" y="1500" width="100" height="100"/>
+  <object id="303" gid="16" x="1600" y="1500" width="100" height="100"/>
+  <object id="304" gid="16" x="1600" y="1400" width="100" height="100"/>
+  <object id="305" gid="16" x="1700" y="1400" width="100" height="100"/>
+  <object id="306" gid="16" x="1800" y="1400" width="100" height="100"/>
+  <object id="307" gid="16" x="1800" y="1300" width="100" height="100"/>
+  <object id="308" gid="16" x="1700" y="1300" width="100" height="100"/>
+  <object id="309" gid="16" x="1600" y="1300" width="100" height="100"/>
+  <object id="310" gid="16" x="1600" y="1200" width="100" height="100"/>
+  <object id="311" gid="16" x="1700" y="1200" width="100" height="100"/>
+  <object id="312" gid="16" x="1800" y="1200" width="100" height="100"/>
+  <object id="313" gid="16" x="1800" y="1100" width="100" height="100"/>
+  <object id="314" gid="16" x="1700" y="1100" width="100" height="100"/>
+  <object id="315" gid="16" x="1700" y="1000" width="100" height="100"/>
+  <object id="316" gid="16" x="1800" y="1000" width="100" height="100"/>
+  <object id="317" gid="16" x="1800" y="900" width="100" height="100"/>
+  <object id="318" gid="16" x="1800" y="800" width="100" height="100"/>
+  <object id="319" gid="16" x="1800" y="700" width="100" height="100"/>
+  <object id="320" gid="16" x="1800" y="600" width="100" height="100"/>
+  <object id="321" gid="16" x="1800" y="500" width="100" height="100"/>
+  <object id="322" gid="16" x="1800" y="400" width="100" height="100"/>
+  <object id="323" gid="16" x="1800" y="300" width="100" height="100"/>
+  <object id="324" gid="16" x="1800" y="200" width="100" height="100"/>
+  <object id="325" gid="16" x="1700" y="200" width="100" height="100"/>
+  <object id="326" gid="16" x="1700" y="300" width="100" height="100"/>
+  <object id="327" gid="16" x="1700" y="400" width="100" height="100"/>
+  <object id="328" gid="16" x="1700" y="500" width="100" height="100"/>
+  <object id="329" gid="16" x="1700" y="600" width="100" height="100"/>
+  <object id="330" gid="16" x="1700" y="700" width="100" height="100"/>
+  <object id="331" gid="16" x="1700" y="800" width="100" height="100"/>
+  <object id="332" gid="16" x="1700" y="900" width="100" height="100"/>
+  <object id="333" gid="16" x="1600" y="1100" width="100" height="100"/>
+  <object id="334" gid="16" x="1500" y="1100" width="100" height="100"/>
+  <object id="335" gid="16" x="1500" y="1000" width="100" height="100"/>
+  <object id="336" gid="16" x="1600" y="1000" width="100" height="100"/>
+  <object id="337" gid="16" x="1600" y="900" width="100" height="100"/>
+  <object id="338" gid="16" x="1500" y="900" width="100" height="100"/>
+  <object id="339" gid="16" x="1500" y="800" width="100" height="100"/>
+  <object id="340" gid="16" x="1600" y="800" width="100" height="100"/>
+  <object id="341" gid="16" x="1600" y="700" width="100" height="100"/>
+  <object id="342" gid="16" x="1500" y="700" width="100" height="100"/>
+  <object id="343" gid="16" x="1500" y="600" width="100" height="100"/>
+  <object id="344" gid="16" x="1600" y="600" width="100" height="100"/>
+  <object id="345" gid="16" x="1600" y="500" width="100" height="100"/>
+  <object id="346" gid="16" x="1500" y="500" width="100" height="100"/>
+  <object id="347" gid="16" x="1500" y="400" width="100" height="100"/>
+  <object id="348" gid="16" x="1600" y="400" width="100" height="100"/>
+  <object id="349" gid="16" x="1600" y="300" width="100" height="100"/>
+  <object id="350" gid="16" x="1500" y="300" width="100" height="100"/>
+  <object id="351" gid="16" x="1600" y="200" width="100" height="100"/>
+  <object id="352" gid="16" x="1500" y="200" width="100" height="100"/>
+  <object id="353" gid="16" x="1400" y="200" width="100" height="100"/>
+  <object id="354" gid="16" x="1300" y="200" width="100" height="100"/>
+  <object id="355" gid="16" x="1200" y="200" width="100" height="100"/>
+  <object id="356" gid="16" x="1200" y="300" width="100" height="100"/>
+  <object id="357" gid="16" x="1300" y="300" width="100" height="100"/>
+  <object id="358" gid="16" x="1300" y="400" width="100" height="100"/>
+  <object id="359" gid="16" x="1200" y="400" width="100" height="100"/>
+  <object id="360" gid="16" x="1200" y="500" width="100" height="100"/>
+  <object id="361" gid="16" x="1300" y="500" width="100" height="100"/>
+  <object id="362" gid="16" x="1300" y="600" width="100" height="100"/>
+  <object id="363" gid="16" x="1200" y="600" width="100" height="100"/>
+  <object id="364" gid="16" x="1200" y="700" width="100" height="100"/>
+  <object id="365" gid="16" x="1300" y="700" width="100" height="100"/>
+  <object id="366" gid="16" x="1300" y="800" width="100" height="100"/>
+  <object id="367" gid="16" x="1200" y="800" width="100" height="100"/>
+  <object id="368" gid="16" x="1200" y="900" width="100" height="100"/>
+  <object id="369" gid="16" x="1300" y="900" width="100" height="100"/>
+  <object id="372" gid="16" x="1200" y="1000" width="100" height="100"/>
+  <object id="373" gid="16" x="1300" y="1000" width="100" height="100"/>
+  <object id="374" gid="16" x="1300" y="1100" width="100" height="100"/>
+  <object id="375" gid="16" x="1200" y="1100" width="100" height="100"/>
+  <object id="376" gid="16" x="1100" y="1100" width="100" height="100"/>
+  <object id="377" gid="16" x="1000" y="1100" width="100" height="100"/>
+  <object id="378" gid="16" x="900" y="1100" width="100" height="100"/>
+  <object id="379" gid="16" x="900" y="900" width="100" height="100"/>
+  <object id="380" gid="16" x="900" y="1000" width="100" height="100"/>
+  <object id="381" gid="16" x="1000" y="1000" width="100" height="100"/>
+  <object id="382" gid="16" x="1000" y="900" width="100" height="100"/>
+  <object id="383" gid="16" x="1000" y="800" width="100" height="100"/>
+  <object id="384" gid="16" x="1100" y="700" width="100" height="100"/>
+  <object id="385" gid="16" x="1000" y="700" width="100" height="100"/>
+  <object id="386" gid="16" x="900" y="700" width="100" height="100"/>
+  <object id="387" gid="16" x="900" y="800" width="100" height="100"/>
+  <object id="388" gid="16" x="900" y="600" width="100" height="100"/>
+  <object id="389" gid="16" x="1000" y="600" width="100" height="100"/>
+  <object id="390" gid="16" x="1000" y="500" width="100" height="100"/>
+  <object id="391" gid="16" x="900" y="500" width="100" height="100"/>
+  <object id="392" gid="16" x="1000" y="400" width="100" height="100"/>
+  <object id="393" gid="16" x="900" y="400" width="100" height="100"/>
+  <object id="394" gid="16" x="1000" y="300" width="100" height="100"/>
+  <object id="395" gid="16" x="1000" y="200" width="100" height="100"/>
+  <object id="396" gid="16" x="900" y="200" width="100" height="100"/>
+  <object id="397" gid="16" x="900" y="300" width="100" height="100"/>
+  <object id="398" gid="16" x="800" y="300" width="100" height="100"/>
+  <object id="399" gid="16" x="700" y="300" width="100" height="100"/>
+  <object id="400" gid="16" x="600" y="300" width="100" height="100"/>
+  <object id="401" gid="16" x="600" y="400" width="100" height="100"/>
+  <object id="402" gid="16" x="600" y="500" width="100" height="100"/>
+  <object id="403" gid="16" x="600" y="600" width="100" height="100"/>
+  <object id="404" gid="16" x="600" y="700" width="100" height="100"/>
+  <object id="405" gid="16" x="600" y="800" width="100" height="100"/>
+  <object id="406" gid="16" x="600" y="900" width="100" height="100"/>
+  <object id="407" gid="16" x="500" y="900" width="100" height="100"/>
+  <object id="408" gid="16" x="400" y="900" width="100" height="100"/>
+  <object id="409" gid="16" x="300" y="900" width="100" height="100"/>
+  <object id="410" gid="16" x="200" y="900" width="100" height="100"/>
+  <object id="411" gid="16" x="200" y="800" width="100" height="100"/>
+  <object id="412" gid="16" x="200" y="700" width="100" height="100"/>
+  <object id="413" gid="16" x="200" y="600" width="100" height="100"/>
+  <object id="414" gid="16" x="100" y="600" width="100" height="100"/>
+  <object id="415" gid="16" x="100" y="500" width="100" height="100"/>
+  <object id="416" gid="16" x="100" y="400" width="100" height="100"/>
+  <object id="417" gid="16" x="100" y="300" width="100" height="100"/>
+  <object id="418" gid="16" x="100" y="200" width="100" height="100"/>
+  <object id="419" gid="16" x="200" y="200" width="100" height="100"/>
+  <object id="420" gid="16" x="200" y="300" width="100" height="100"/>
+  <object id="421" gid="16" x="200" y="400" width="100" height="100"/>
+  <object id="422" gid="16" x="200" y="500" width="100" height="100"/>
+  <object id="423" gid="16" x="300" y="300" width="100" height="100"/>
+  <object id="424" gid="16" x="500" y="300" width="100" height="100"/>
+  <object id="425" gid="16" x="400" y="300" width="100" height="100"/>
+  <object id="426" gid="11" x="400" y="300" width="109" height="167">
+   <properties>
+    <property name="dialogue" value="ninja_stage_2"/>
+    <property name="turns_between_actions" type="int" value="2"/>
+    <property name="vx" type="float" value="1"/>
+    <property name="vy" type="float" value="0"/>
+   </properties>
+  </object>
+  <object id="428" gid="14" x="1100" y="800" width="65" height="170">
+   <properties>
+    <property name="dialogue" value="assassin_stage_2"/>
+    <property name="turns_between_actions" type="int" value="2"/>
+    <property name="vx" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="429" gid="3" x="400" y="1600" width="80" height="167"/>
+  <object id="430" gid="9" x="1100" y="1700" width="80" height="174">
+   <properties>
+    <property name="dialogue" value="cuff_stage_2"/>
+   </properties>
+  </object>
+  <object id="432" gid="6" x="1600" y="500" width="100" height="100"/>
+  <object id="433" gid="6" x="1500" y="500" width="100" height="100"/>
+  <object id="434" gid="6" x="1600" y="900" width="100" height="100"/>
+  <object id="435" gid="6" x="1500" y="900" width="100" height="100"/>
+  <object id="436" gid="17" x="100" y="1300" width="100" height="100"/>
+  <object id="437" gid="17" x="1500" y="1000" width="100" height="100"/>
+  <object id="438" gid="12" x="1800" y="1700" width="74" height="185">
+   <properties>
+    <property name="dialogue" value="infiltrator_stage_2"/>
+    <property name="vy" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="439" gid="17" x="400" y="300" width="100" height="100"/>
+  <object id="440" gid="17" x="1100" y="700" width="100" height="100"/>
+  <object id="443" gid="10" x="100" y="200" width="114" height="180">
+   <properties>
+    <property name="stage" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="444" gid="10" x="200" y="200" width="114" height="180">
+   <properties>
+    <property name="stage" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="448" gid="16" x="800" y="600" width="100" height="100"/>
+  <object id="449" gid="16" x="800" y="700" width="100" height="100"/>
+  <object id="450" gid="16" x="800" y="800" width="100" height="100"/>
+  <object id="451" gid="16" x="800" y="900" width="100" height="100"/>
+  <object id="452" gid="16" x="1100" y="800" width="100" height="100"/>
+  <object id="454" gid="6" x="100" y="1800" width="100" height="100"/>
+  <object id="455" gid="6" x="200" y="1800" width="100" height="100"/>
+  <object id="456" gid="6" x="100" y="1700" width="100" height="100"/>
+  <object id="459" gid="6" x="100" y="1600" width="100" height="100"/>
+  <object id="460" gid="6" x="100" y="1500" width="100" height="100"/>
+  <object id="461" gid="6" x="200" y="1700" width="100" height="100"/>
+  <object id="463" gid="6" x="500" y="1900" width="100" height="100"/>
+  <object id="467" gid="6" x="500" y="1800" width="100" height="100"/>
+  <object id="468" gid="6" x="500" y="1700" width="100" height="100"/>
+  <object id="469" gid="16" x="300" y="1800" width="100" height="100"/>
+  <object id="470" gid="16" x="300" y="1900" width="100" height="100"/>
+  <object id="471" gid="16" x="400" y="1900" width="100" height="100"/>
+  <object id="472" gid="16" x="1100" y="1500" width="100" height="100"/>
+  <object id="473" gid="16" x="1200" y="1500" width="100" height="100"/>
+  <object id="474" gid="1" x="1200" y="300" width="95" height="175">
+   <properties>
+    <property name="dialogue" value="janitor_stage_2"/>
+   </properties>
+  </object>
+  <object id="475" gid="16" x="500" y="1000" width="100" height="100"/>
+  <object id="476" gid="16" x="400" y="1000" width="100" height="100"/>
+  <object id="477" gid="16" x="300" y="1000" width="100" height="100"/>
+  <object id="478" gid="19" x="400" y="1000" width="69" height="170">
+   <properties>
+    <property name="dialogue" value="intern_stage_2"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,46 @@
+{
+	"actors": [
+		{
+			"name": "GameManager",
+			"components": {
+				"1": {
+					"type": "GameManager"
+				}
+			}
+		},
+		{
+			"name": "CameraManager",
+			"components": {
+				"1": {
+					"type": "CameraManager"
+				}
+			}
+		},
+		{
+			"name": "bgm",
+			"components": {
+				"1": {
+					"type": "PlayAudio",
+					"clip": "392392__deenemge__sneaky-guitar-loop",
+					"loop": true
+				}
+			}
+		},
+		{
+			"name": "hud",
+			"components": {
+				"1": {
+					"type": "Hud"
+				}
+			}
+		},
+		{
+			"name": "DialogueManager",
+			"components": {
+				"1": {
+					"type": "DialogueManager"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"actors": [
+		{
+			"name": "DialogueManager",
+			"components": {
+				"1": {
+					"type": "DialogueManager"
+				}
+			}
+		}
+	]
+}

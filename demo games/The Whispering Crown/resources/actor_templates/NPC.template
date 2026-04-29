@@ -1,0 +1,17 @@
+{
+    "name": "NPC",
+    "components": {
+        "2": {
+            "type": "Transform"
+        },
+        "4": {
+            "type": "SpriteRenderer",
+            "sprite": "boss",
+            "pivot_y": 1,
+            "auto_sorting_order": true
+        },
+        "5": {
+            "type": "Block"
+        }
+    }
+}
