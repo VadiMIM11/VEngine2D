@@ -1,6 +1,6 @@
 
 build
-**/resources
+# **/resources
 **/frames
 render_logger.txt
 user_input.txt
@@ -474,8 +474,13 @@ xcuserdata/
 *.exe
 *.out
 *.app
+
 sdl_user_input.txt
+
 /Profiler
 /.github
+
 /build-cmake-check
 /build-web
+/build_web
+
