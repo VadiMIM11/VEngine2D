@@ -89,40 +89,30 @@ if(EMSCRIPTEN)
     target_link_options(VEngine2D PRIVATE
         "-sMODULARIZE=1"
         "-sEXPORT_ES6=1"
+        "-sOFFSCREENCANVAS_SUPPORT=1"
+        "-sUSE_SDL=2"
+        "-sUSE_SDL_IMAGE=2"
+        "-sSDL2_IMAGE_FORMATS=['png']"
+        "-sUSE_SDL_TTF=2"
+        "-sUSE_SDL_MIXER=2"
+        "-sSDL2_MIXER_FORMATS=['wav','ogg','mp3']"
+        "-sFORCE_FILESYSTEM=1"
+        "-sALLOW_MEMORY_GROWTH=1"
+        "-sDISABLE_EXCEPTION_CATCHING=0"
+        "--preload-file" "${CMAKE_SOURCE_DIR}/resources@/resources"
     )
 
     if(VENGINE2D_WEB_OUTPUT_MODE STREQUAL "js")
         # JS module build: use configured basename for exported name and output files
         set_target_properties(VEngine2D PROPERTIES OUTPUT_NAME "${VENGINE2D_WEB_BASENAME}")
         target_link_options(VEngine2D PRIVATE
-            "-sMODULARIZE=1"
-            "-sEXPORT_ES6=1"
             "-sEXPORT_NAME=${VENGINE2D_WEB_BASENAME}"
-            "-sUSE_SDL=2"
-            "-sUSE_SDL_IMAGE=2"
-            "-sSDL2_IMAGE_FORMATS=['png']"
-            "-sUSE_SDL_TTF=2"
-            "-sUSE_SDL_MIXER=2"
-            "-sSDL2_MIXER_FORMATS=['wav','ogg','mp3']"
-            "-sFORCE_FILESYSTEM=1"
-            "-sALLOW_MEMORY_GROWTH=1"
-            "-sDISABLE_EXCEPTION_CATCHING=0"
-            "--preload-file" "${CMAKE_SOURCE_DIR}/resources@/resources"
+            "-sDISABLE_DEPRECATED_FIND_EVENT_TARGET_BEHAVIOR=0" # Allows to use custom canvas id
         )
     else()
         # HTML shell build: preserve original export name and behavior
-        target_link_options(VEngine2D PRIVATE
-            "-sUSE_SDL=2"
-            "-sUSE_SDL_IMAGE=2"
-            "-sSDL2_IMAGE_FORMATS=['png']"
-            "-sUSE_SDL_TTF=2"
-            "-sUSE_SDL_MIXER=2"
-            "-sSDL2_MIXER_FORMATS=['wav','ogg','mp3']"
-            "-sFORCE_FILESYSTEM=1"
-            "-sALLOW_MEMORY_GROWTH=1"
-            "-sDISABLE_EXCEPTION_CATCHING=0"
-            "--preload-file" "${CMAKE_SOURCE_DIR}/resources@/resources"
-        )
+        # target_link_options(VEngine2D PRIVATE
+        # )
     endif()
 else()
     target_link_directories(VEngine2D PRIVATE
