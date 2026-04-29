@@ -1,0 +1,52 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "win-release",
+      "displayName": "Windows Release",
+      "generator": "Visual Studio 17 2022",
+      "binaryDir": "${sourceDir}/build",
+      "architecture": "x64",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "web-html",
+      "displayName": "Web Release (HTML shell)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build_web_html",
+      "toolchainFile": "$env{EMSDK}/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "VENGINE2D_WEB_OUTPUT_MODE": "html"
+      }
+    },
+    {
+      "name": "web-js",
+      "displayName": "Web Release (JS module)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build_web_js",
+      "toolchainFile": "$env{EMSDK}/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "VENGINE2D_WEB_OUTPUT_MODE": "js"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "win-release",
+      "configurePreset": "win-release",
+      "configuration": "Release"
+    },
+    {
+      "name": "web-html",
+      "configurePreset": "web-html"
+    },
+    {
+      "name": "web-js",
+      "configurePreset": "web-js"
+    }
+  ]
+}

@@ -10,6 +10,9 @@ if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release CACHE STRING "Build type" FORCE)
 endif()
 
+set(VENGINE2D_WEB_OUTPUT_MODE "html" CACHE STRING "Emscripten output mode: html or js")
+set_property(CACHE VENGINE2D_WEB_OUTPUT_MODE PROPERTY STRINGS html js)
+
 # --- Source Files ---
 set(ENGINE_SRCS
     Actor.cpp
@@ -75,7 +78,11 @@ endif()
 
 # --- Platform-specific linking ---
 if(EMSCRIPTEN)
-    set_target_properties(VEngine2D PROPERTIES SUFFIX ".js")
+    if(VENGINE2D_WEB_OUTPUT_MODE STREQUAL "js")
+        set_target_properties(VEngine2D PROPERTIES SUFFIX ".js")
+    else()
+        set_target_properties(VEngine2D PROPERTIES SUFFIX ".html")
+    endif()
 
     # Emscripten SDL ports + virtual filesystem + packaged resources
     target_link_options(VEngine2D PRIVATE

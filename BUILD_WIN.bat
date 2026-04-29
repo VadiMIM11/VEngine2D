@@ -1,7 +1,7 @@
 @echo off
 
-cmake -S . -B build
+cmake --preset win-release
 if %errorlevel% neq 0 exit /b %errorlevel%
 
-cmake --build build
+cmake --build --preset win-release
 if %errorlevel% neq 0 exit /b %errorlevel%
