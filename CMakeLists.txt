@@ -14,6 +14,38 @@ set(VENGINE2D_WEB_OUTPUT_MODE "html" CACHE STRING "Emscripten output mode: html 
 set_property(CACHE VENGINE2D_WEB_OUTPUT_MODE PROPERTY STRINGS html js)
 set(VENGINE2D_WEB_BASENAME "VEngine2D" CACHE STRING "Base name for web artifacts (js/wasm/data)")
 
+# Policy for resource file extension casing: warn, error, or ignore
+set(VENGINE2D_RES_EXT_CASE_POLICY "warn" CACHE STRING "Behavior when resource file extensions include uppercase letters: warn, error, ignore")
+set_property(CACHE VENGINE2D_RES_EXT_CASE_POLICY PROPERTY STRINGS warn error ignore)
+
+# Check resource file extensions for uppercase letters and optionally warn or error
+if(EXISTS "${CMAKE_SOURCE_DIR}/resources")
+    file(GLOB_RECURSE _VENGINE2D_RESOURCE_CHECK_FILES
+        "${CMAKE_SOURCE_DIR}/resources/*"
+    )
+    set(_VENGINE2D_bad_list "")
+    foreach(_res_file IN LISTS _VENGINE2D_RESOURCE_CHECK_FILES)
+        get_filename_component(_ext "${_res_file}" EXT)
+        # remove leading dot
+        string(REGEX REPLACE "^\\." "" _ext_no_dot "${_ext}")
+        if(_ext_no_dot)
+            string(REGEX MATCH "[A-Z]" _has_upper "${_ext_no_dot}")
+            if(_has_upper)
+                list(APPEND _VENGINE2D_bad_list "${_res_file}")
+            endif()
+        endif()
+    endforeach()
+
+    if(_VENGINE2D_bad_list)
+        string(REPLACE ";" "\n" _bad_list_lines "${_VENGINE2D_bad_list}")
+        if(VENGINE2D_RES_EXT_CASE_POLICY STREQUAL "error")
+            message(FATAL_ERROR "Resource files with uppercase extensions detected:\n${_bad_list_lines}\nRename these files to use lowercase extensions or set VENGINE2D_RES_EXT_CASE_POLICY=ignore.\nNote that web builds are case-sensitive and will fail to load resources with uppercase extensions.")
+        elseif(VENGINE2D_RES_EXT_CASE_POLICY STREQUAL "warn")
+            message(WARNING "Resource files with uppercase extensions detected:\n${_bad_list_lines}\nRename these files to use lowercase extensions or set VENGINE2D_RES_EXT_CASE_POLICY=ignore or =error.\nNote that web builds are case-sensitive and will fail to load resources with uppercase extensions.")
+        endif()
+    endif()
+endif()
+
 # --- Source Files ---
 set(ENGINE_SRCS
     Actor.cpp
