@@ -1,6 +1,6 @@
 
 build
-# **/resources
+/resources/
 **/frames
 render_logger.txt
 user_input.txt
@@ -485,3 +485,4 @@ sdl_user_input.txt
 /build_web
 
 /build_web_html
+/build_web_js
