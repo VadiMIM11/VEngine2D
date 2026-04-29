@@ -88,7 +88,15 @@ if(EMSCRIPTEN)
     target_link_options(VEngine2D PRIVATE
         "-sMODULARIZE=1"
         "-sEXPORT_ES6=1"
-        "-sEXPORT_NAME=VEngine2D"
+    )
+
+    if(VENGINE2D_WEB_OUTPUT_MODE STREQUAL "js")
+        target_link_options(VEngine2D PRIVATE
+            "-sEXPORT_NAME=VEngine2D"
+        )
+    endif()
+
+    target_link_options(VEngine2D PRIVATE
         "-sUSE_SDL=2"
         "-sUSE_SDL_IMAGE=2"
         "-sSDL2_IMAGE_FORMATS=['png']"
