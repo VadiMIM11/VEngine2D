@@ -30,7 +30,8 @@
       "toolchainFile": "$env{EMSDK}/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Release",
-        "VENGINE2D_WEB_OUTPUT_MODE": "js"
+        "VENGINE2D_WEB_OUTPUT_MODE": "js",
+        "VENGINE2D_WEB_BASENAME": "VEngine2D"
       }
     }
   ],

@@ -12,6 +12,7 @@ endif()
 
 set(VENGINE2D_WEB_OUTPUT_MODE "html" CACHE STRING "Emscripten output mode: html or js")
 set_property(CACHE VENGINE2D_WEB_OUTPUT_MODE PROPERTY STRINGS html js)
+set(VENGINE2D_WEB_BASENAME "VEngine2D" CACHE STRING "Base name for web artifacts (js/wasm/data)")
 
 # --- Source Files ---
 set(ENGINE_SRCS
@@ -91,23 +92,38 @@ if(EMSCRIPTEN)
     )
 
     if(VENGINE2D_WEB_OUTPUT_MODE STREQUAL "js")
+        # JS module build: use configured basename for exported name and output files
+        set_target_properties(VEngine2D PROPERTIES OUTPUT_NAME "${VENGINE2D_WEB_BASENAME}")
         target_link_options(VEngine2D PRIVATE
-            "-sEXPORT_NAME=VEngine2D"
+            "-sMODULARIZE=1"
+            "-sEXPORT_ES6=1"
+            "-sEXPORT_NAME=${VENGINE2D_WEB_BASENAME}"
+            "-sUSE_SDL=2"
+            "-sUSE_SDL_IMAGE=2"
+            "-sSDL2_IMAGE_FORMATS=['png']"
+            "-sUSE_SDL_TTF=2"
+            "-sUSE_SDL_MIXER=2"
+            "-sSDL2_MIXER_FORMATS=['wav','ogg','mp3']"
+            "-sFORCE_FILESYSTEM=1"
+            "-sALLOW_MEMORY_GROWTH=1"
+            "-sDISABLE_EXCEPTION_CATCHING=0"
+            "--preload-file" "${CMAKE_SOURCE_DIR}/resources@/resources"
+        )
+    else()
+        # HTML shell build: preserve original export name and behavior
+        target_link_options(VEngine2D PRIVATE
+            "-sUSE_SDL=2"
+            "-sUSE_SDL_IMAGE=2"
+            "-sSDL2_IMAGE_FORMATS=['png']"
+            "-sUSE_SDL_TTF=2"
+            "-sUSE_SDL_MIXER=2"
+            "-sSDL2_MIXER_FORMATS=['wav','ogg','mp3']"
+            "-sFORCE_FILESYSTEM=1"
+            "-sALLOW_MEMORY_GROWTH=1"
+            "-sDISABLE_EXCEPTION_CATCHING=0"
+            "--preload-file" "${CMAKE_SOURCE_DIR}/resources@/resources"
         )
     endif()
-
-    target_link_options(VEngine2D PRIVATE
-        "-sUSE_SDL=2"
-        "-sUSE_SDL_IMAGE=2"
-        "-sSDL2_IMAGE_FORMATS=['png']"
-        "-sUSE_SDL_TTF=2"
-        "-sUSE_SDL_MIXER=2"
-        "-sSDL2_MIXER_FORMATS=['wav','ogg','mp3']"
-        "-sFORCE_FILESYSTEM=1"
-        "-sALLOW_MEMORY_GROWTH=1"
-        "-sDISABLE_EXCEPTION_CATCHING=0"
-        "--preload-file" "${CMAKE_SOURCE_DIR}/resources@/resources"
-    )
 else()
     target_link_directories(VEngine2D PRIVATE
         third_party/SDL2/lib
