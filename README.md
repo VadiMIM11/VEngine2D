@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/VEngine2D%20logo.png" alt="VEngine2D logo" width="360">
+</p>
+
 # VEngine2D
 
 **A minimal C++ 2D game engine for building scriptable, data-driven games across desktop and web.**
